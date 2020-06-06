@@ -17,7 +17,7 @@
            revision="refs/heads/q10x" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="pdcaf" groups="pdcaf" />
+  <project path="manifest" name="RadixQube/manifest" remote="github" revision="mi5" />
 
   <!-- Build repositories -->
   <remove-project name="platform/art" />
