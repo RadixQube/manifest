@@ -178,7 +178,7 @@
   <!-- Vendor -->
   <remove-project name="device/qcom/sepolicy"/>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="pdcaf" groups="pdcaf" />
-  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdcaf" groups="pdcaf" >
+  <project path="vendor/pixeldust" name="RadixQube/android_vendor_pixeldust" remote="github" revision="quark" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/codeaurora/telephony" />
