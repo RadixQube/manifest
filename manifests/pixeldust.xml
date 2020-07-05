@@ -208,10 +208,6 @@
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pdcaf" groups="pdcaf" />
 
-  <!-- GCC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="pdcaf" groups="pdcaf" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="pdcaf" groups="pdcaf" clone-depth="1" />
-
   <!-- General AOSP Security Updates (these repos are most frequent) -->
   <remove-project name="platform/external/ImageMagick" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" remote="aosp" />
