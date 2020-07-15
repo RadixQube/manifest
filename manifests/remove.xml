@@ -56,6 +56,10 @@
   <remove-project name="platform/packages/apps/QuickSearchBox"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
   <remove-project name="platform/packages/apps/SoundRecorder"/>
+  <remove-project name="platform/packages/apps/Dialer"/>
+  <remove-project name="platform/packages/apps/Contacts"/>
+  <remove-project name="platform/packages/apps/Camera2"/>
+  <remove-project name="platform/packages/apps/Gallery2"/>
   <remove-project name="platform/prebuilts/r8"/>
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
